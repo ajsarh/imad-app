@@ -1,7 +1,7 @@
 console.log('Loaded!');
 //Changing the HTML
 var element = document.getElementById('main-text');
-element.innerHTML='new Value'; 
+
 //Move the Image
 var img=document.getElementById('ajsar');
 var marginLeft=0;
