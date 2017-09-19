@@ -18,7 +18,7 @@ button.onClick = function(){
     }
     request.open=('GET','http://ajsarhisan.imad.hasura-app.io/counter',true);
     request.send=(null);
-}
+};
 //Move the Image
 var img=document.getElementById('ajsar');
 var marginLeft=0;
