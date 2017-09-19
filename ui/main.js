@@ -16,7 +16,7 @@ button.onClick = function(){
             }
         }
     }
-    request.open=('GET','http://ajsarhisan.imad.hasura.io/counter',true);
+    request.open=('GET','http://ajsarhisan.imad.hasura-app.io/counter',true);
     request.send=(null);
 }
 //Move the Image
