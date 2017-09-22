@@ -13,7 +13,7 @@ var config={
     password: process.env.DB_PASSWORD
     
 };
-var pool=new Pool(config);
+var pool=new pool(config);
 app.get('/test-db',fuction(req,res){
     //Make a select request
     //Return a response
@@ -24,7 +24,7 @@ app.get('/test-db',fuction(req,res){
         else {
             res.send(JSON.stringify(result));
         }
-    })
+    });
 });
 app.use(morgan('combined'));
 
