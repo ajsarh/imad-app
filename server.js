@@ -15,7 +15,7 @@ var config={
 };
 var pool=new Pool(config);
 app.get('/test-db',
-    fuction(req,res)
+    fuction(req,res))
     {
     //Make a select request
     //Return a response
@@ -31,7 +31,7 @@ app.get('/test-db',
                           res.send(JSON.stringify(result));
                      }
              });
-    });
+    }
 app.use(morgan('combined'));
 
 app.get('/', function (req, res) {
